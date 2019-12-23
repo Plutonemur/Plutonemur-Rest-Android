@@ -36,6 +36,13 @@ if (secretPropsFile.exists()) {
     ext["ossrhPassword"] = System.getenv('OSSRH_PASSWORD')
 }
 
+nexusStaging {
+    packageGroup = PUBLISH_GROUP_ID
+    stagingProfileId = '1be46e6eb6df1d'
+    username = ossrhUsername
+    password = ossrhPassword
+}
+
 publishing {
     publications {
         release(MavenPublication) {
