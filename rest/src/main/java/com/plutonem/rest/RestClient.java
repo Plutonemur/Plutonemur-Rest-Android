@@ -15,11 +15,11 @@ public class RestClient {
     public static enum REST_CLIENT_VERSIONS {V0, V1, V1_1, V1_2, V1_3}
     public static final String PARAMS_ENCODING = "UTF-8";
 
-    protected static final String REST_API_ENDPOINT_URL_V0 = "http://192.168.2.136:8080/";
-    protected static final String REST_API_ENDPOINT_URL_V1 = "http://192.168.2.136:8080/rest/v1/";
-    protected static final String REST_API_ENDPOINT_URL_V1_1 = "http://192.168.2.136:8080/rest/v1.1/";
-    protected static final String REST_API_ENDPOINT_URL_V1_2 = "http://192.168.2.136:8080/rest/v1.2/";
-    protected static final String REST_API_ENDPOINT_URL_V1_3 = "http://192.168.2.136:8080/rest/v1.3/";
+    protected static final String REST_API_ENDPOINT_URL_V0 = "http://39.99.148.207/";
+    protected static final String REST_API_ENDPOINT_URL_V1 = "http://39.99.148.207/rest/v1/";
+    protected static final String REST_API_ENDPOINT_URL_V1_1 = "http://39.99.148.207/rest/v1.1/";
+    protected static final String REST_API_ENDPOINT_URL_V1_2 = "http://39.99.148.207/rest/v1.2/";
+    protected static final String REST_API_ENDPOINT_URL_V1_3 = "http://39.99.148.207/rest/v1.3/";
 
     private RequestQueue mQueue;
     private String mAccessToken;
